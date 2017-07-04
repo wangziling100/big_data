@@ -146,7 +146,7 @@ def cf_diff(data, columns=None, label=None):
 
 
 
-def cf_kurtosis_window(data,window=60, columns=None, label=None):
+def cf_kurtosis_window(data,window=10, columns=None, label=None):
     """
     kurtosis accross window
     """
@@ -166,7 +166,7 @@ def cf_kurtosis_window(data,window=60, columns=None, label=None):
     
     return r_data
     
-def cf_skew_window(data,window=60, columns=None, label=None):
+def cf_skew_window(data,window=10, columns=None, label=None):
     """
     skew accross window
     """
